@@ -12,6 +12,20 @@ A Python command-line tool that periodically checks TCP endpoints and records th
 - Supports configurable monitoring intervals and connection timeouts.
 - Handles Ctrl+C to stop monitoring.
 
+## Motivation
+
+I built this project to gain practical experience with Python networking and understand how TCP connections can be used to monitor service availability.
+
+I wanted to create a tool that could monitor multiple endpoints, measure connection times and record results over time. The project also gave me an opportunity to work with error handling, command-line arguments, CSV file handling and automated testing.
+
+## Technologies
+
+- Python 3
+- `socket` — TCP connection checks
+- `argparse` — command-line configuration
+- `csv` — recording monitoring results
+- `pytest` — automated testing
+
 ## Requirements
 
 - Python 3
